@@ -16,7 +16,7 @@ namespace XamarinForms_Login.ViewModel
 
         }
         private string email;
-        public string Email
+        public string EmailEntry
         {
             get { return email; }
             set
@@ -26,7 +26,7 @@ namespace XamarinForms_Login.ViewModel
             }
         }
         private string password;
-        public string Password
+        public string PasswordEntry
         {
             get { return password; }
             set
@@ -45,11 +45,11 @@ namespace XamarinForms_Login.ViewModel
         
         private void Login()
         {
-            if (string.IsNullOrEmpty(Email) || string.IsNullOrEmpty(Password))
+            if (string.IsNullOrEmpty(EmailEntry) || string.IsNullOrEmpty(PasswordEntry))
                 Xamarin.Forms.Application.Current.MainPage.DisplayAlert("Empty Values", "Please enter Email and Password", "OK");
             else
             {
-                if (Email == "jhonatan@gmail.com" && Password == "abcde123")
+                if (EmailEntry == "jhonatan@gmail.com" && PasswordEntry == "abcde123")
                 {
                     Xamarin.Forms.Application.Current.MainPage.DisplayAlert("Login Success", "", "Ok");
                     Xamarin.Forms.Application.Current.MainPage.Navigation.PushAsync(new Welcome());

@@ -4,11 +4,11 @@
              x:Class="XamarinForms_Login.View.LogIn">
     <ContentPage.Content>
         <StackLayout>
-            <Entry x:Name = "Email" Placeholder = "Email" Text="{Binding Email}"  
+            <Entry x:Name = "EmailEntry" Placeholder = "Email" Text="{Binding EmailEntry}"  
                    HeightRequest = "40"  
                    Keyboard = "Email"/>
             
-            <Entry x:Name = "Password" Text="{Binding Password}" Placeholder = "Password"  
+            <Entry x:Name = "PasswordEntry" Text="{Binding PasswordEntry}" Placeholder = "Password"  
                    HeightRequest = "40"  
                    IsPassword = "True"/>
             
