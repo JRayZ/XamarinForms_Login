@@ -12,7 +12,7 @@
                    HeightRequest = "40"  
                    IsPassword = "True"/>
             
-            <Button x:Name= "loginbtn" Text = "Login "   
+            <Button x:Name= "loginbtn" Text = "Login"   
                     Command="{Binding LogInCommand}"  
                     HorizontalOptions = "FillAndExpand"/>
             
