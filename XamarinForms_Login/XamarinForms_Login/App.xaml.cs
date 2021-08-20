@@ -6,9 +6,9 @@ using XamarinForms_Login.View;
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace XamarinForms_Login
 {
-    public partial class App : Application
+    public partial class Application : Xamarin.Forms.Application
     {
-        public App()
+        public Application()
         {
             InitializeComponent();
 

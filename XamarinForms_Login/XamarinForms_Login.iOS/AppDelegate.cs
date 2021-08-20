@@ -23,7 +23,7 @@ namespace XamarinForms_Login.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
-            LoadApplication(new App());
+            LoadApplication(new XamarinForms_Login.Application());
 
             return base.FinishedLaunching(app, options);
         }

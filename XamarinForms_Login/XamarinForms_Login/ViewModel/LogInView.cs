@@ -46,16 +46,16 @@ namespace XamarinForms_Login.ViewModel
         private void Login()
         {
             if (string.IsNullOrEmpty(Email) || string.IsNullOrEmpty(Password))
-                App.Current.MainPage.DisplayAlert("Empty Values", "Please enter Email and Password", "OK");
+                Xamarin.Forms.Application.Current.MainPage.DisplayAlert("Empty Values", "Please enter Email and Password", "OK");
             else
             {
                 if (Email == "jhonatan@gmail.com" && Password == "abcde123")
                 {
-                    App.Current.MainPage.DisplayAlert("Login Success", "", "Ok");
-                    App.Current.MainPage.Navigation.PushAsync(new Welcome());
+                    Xamarin.Forms.Application.Current.MainPage.DisplayAlert("Login Success", "", "Ok");
+                    Xamarin.Forms.Application.Current.MainPage.Navigation.PushAsync(new Welcome());
                 }
                 else
-                    App.Current.MainPage.DisplayAlert("Login Fail", "Please enter correct Email and Password", "OK");
+                    Xamarin.Forms.Application.Current.MainPage.DisplayAlert("Login Fail", "Please enter correct Email and Password", "OK");
             }
         }
     }
