@@ -49,7 +49,7 @@ namespace XamarinForms_Login.ViewModel
                 App.Current.MainPage.DisplayAlert("Empty Values", "Please enter Email and Password", "OK");
             else
             {
-                if (Email == "abc@gmail.com" && Password == "1234")
+                if (Email == "jhonatan@gmail.com" && Password == "abcde123")
                 {
                     App.Current.MainPage.DisplayAlert("Login Success", "", "Ok");
                     App.Current.MainPage.Navigation.PushAsync(new Welcome());
