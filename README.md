@@ -1,6 +1,6 @@
 # XamarinForms_Login
 
-Practical assignment fro the class (Desarrollo de Aplicaciones Moviles) from INTEC, R.D.
+Practical assignment for the class (Desarrollo de Aplicaciones Moviles) from INTEC, R.D.
 
 ## Getting Started
 
