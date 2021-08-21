@@ -14,9 +14,6 @@ We can see here that an attempt was made to enter without information entered in
 ### Invalid Information
 ![alt text](https://github.com/JRayZ/XamarinForms_Login/blob/master/ScreenshotFolder/InvalidInfo.jpeg)
 
-### Valid Information
-![alt text](https://github.com/JRayZ/XamarinForms_Login/blob/master/ScreenshotFolder/ValidInfo.jpeg)
-
 ### Succesful Login
 ![alt text](https://github.com/JRayZ/XamarinForms_Login/blob/master/ScreenshotFolder/SuccessLogin.jpeg)
 
