@@ -51,7 +51,7 @@ namespace XamarinForms_Login.ViewModel
             {
                 if (EmailEntry == "jhonatan@gmail.com" && PasswordEntry == "abcde123")
                 {
-                    Xamarin.Forms.Application.Current.MainPage.DisplayAlert("Login Success", "", "Ok");
+                    Xamarin.Forms.Application.Current.MainPage.DisplayAlert("Bienvenido Jhonatan", "", "Ok");
                     Xamarin.Forms.Application.Current.MainPage.Navigation.PushAsync(new Welcome());
                 }
                 else
